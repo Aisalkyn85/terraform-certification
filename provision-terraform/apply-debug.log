@@ -1,0 +1,282 @@
+2025-12-18T19:40:44.173-0600 [INFO]  Terraform version: 1.5.7
+2025-12-18T19:40:44.173-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-18T19:40:44.173-0600 [INFO]  CLI args: []string{"terraform", "init"}
+2025-12-18T19:40:44.175-0600 [INFO]  CLI command args: []string{"init"}
+2025-12-18T19:41:22.466-0600 [INFO]  Terraform version: 1.5.7
+2025-12-18T19:41:22.467-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-18T19:41:22.467-0600 [INFO]  CLI args: []string{"terraform", "apply", "-auto-approve"}
+2025-12-18T19:41:22.468-0600 [INFO]  CLI command args: []string{"apply", "-auto-approve"}
+2025-12-18T19:41:22.778-0600 [INFO]  backend/local: starting Apply operation
+2025-12-18T19:41:22.778-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-18T19:41:27.807-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: configuring server automatic mTLS: timestamp=2025-12-18T19:41:27.807-0600
+2025-12-18T19:41:28.330-0600 [INFO]  ReferenceTransformer: reference not found: "self"
+2025-12-18T19:41:28.331-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-18T19:41:28.455-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: configuring server automatic mTLS: timestamp=2025-12-18T19:41:28.454-0600
+2025-12-18T19:41:28.945-0600 [ERROR] vertex "aws_instance.remote_demo" error: Invalid function argument
+2025-12-18T19:44:23.513-0600 [INFO]  Terraform version: 1.5.7
+2025-12-18T19:44:23.513-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-18T19:44:23.513-0600 [INFO]  CLI args: []string{"terraform", "apply", "-auto-approve"}
+2025-12-18T19:44:23.514-0600 [INFO]  CLI command args: []string{"apply", "-auto-approve"}
+2025-12-18T19:44:23.908-0600 [INFO]  backend/local: starting Apply operation
+2025-12-18T19:44:23.910-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-18T19:44:24.145-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: configuring server automatic mTLS: timestamp=2025-12-18T19:44:24.145-0600
+2025-12-18T19:44:24.684-0600 [INFO]  ReferenceTransformer: reference not found: "self"
+2025-12-18T19:44:24.686-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-18T19:44:24.815-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: configuring server automatic mTLS: timestamp=2025-12-18T19:44:24.815-0600
+2025-12-18T19:44:25.285-0600 [ERROR] vertex "aws_instance.remote_demo" error: Invalid function argument
+2025-12-18T19:45:31.515-0600 [INFO]  Terraform version: 1.5.7
+2025-12-18T19:45:31.515-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-18T19:45:31.515-0600 [INFO]  CLI args: []string{"terraform", "apply", "-auto-approve"}
+2025-12-18T19:45:31.516-0600 [INFO]  CLI command args: []string{"apply", "-auto-approve"}
+2025-12-18T19:45:31.880-0600 [INFO]  backend/local: starting Apply operation
+2025-12-18T19:45:31.880-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-18T19:45:32.086-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: configuring server automatic mTLS: timestamp=2025-12-18T19:45:32.085-0600
+2025-12-18T19:45:32.623-0600 [INFO]  ReferenceTransformer: reference not found: "self"
+2025-12-18T19:45:32.623-0600 [INFO]  ReferenceTransformer: reference not found: "path.module"
+2025-12-18T19:45:32.624-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-18T19:45:32.771-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: configuring server automatic mTLS: timestamp=2025-12-18T19:45:32.771-0600
+2025-12-18T19:45:33.261-0600 [ERROR] vertex "aws_instance.remote_demo" error: Invalid function argument
+2025-12-18T19:48:17.293-0600 [INFO]  Terraform version: 1.5.7
+2025-12-18T19:48:17.294-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-18T19:48:17.294-0600 [INFO]  CLI args: []string{"terraform", "apply", "-auto-approve"}
+2025-12-18T19:48:17.294-0600 [INFO]  CLI command args: []string{"apply", "-auto-approve"}
+2025-12-18T19:48:17.644-0600 [INFO]  backend/local: starting Apply operation
+2025-12-18T19:48:17.647-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-18T19:48:17.870-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: configuring server automatic mTLS: timestamp=2025-12-18T19:48:17.870-0600
+2025-12-18T19:48:18.420-0600 [INFO]  ReferenceTransformer: reference not found: "self"
+2025-12-18T19:48:18.422-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-18T19:48:18.555-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: configuring server automatic mTLS: timestamp=2025-12-18T19:48:18.555-0600
+2025-12-18T19:48:19.012-0600 [ERROR] vertex "aws_instance.remote_demo" error: Invalid function argument
+2025-12-18T19:49:36.485-0600 [INFO]  Terraform version: 1.5.7
+2025-12-18T19:49:36.486-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-18T19:49:36.486-0600 [INFO]  CLI args: []string{"terraform", "apply", "-auto-approve"}
+2025-12-18T19:49:36.487-0600 [INFO]  CLI command args: []string{"apply", "-auto-approve"}
+2025-12-18T19:49:36.908-0600 [INFO]  backend/local: starting Apply operation
+2025-12-18T19:49:36.910-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-18T19:49:37.138-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: configuring server automatic mTLS: timestamp=2025-12-18T19:49:37.138-0600
+2025-12-18T19:49:37.682-0600 [INFO]  ReferenceTransformer: reference not found: "self"
+2025-12-18T19:49:37.684-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-18T19:49:37.817-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: configuring server automatic mTLS: timestamp=2025-12-18T19:49:37.817-0600
+2025-12-18T19:49:38.284-0600 [INFO]  backend/local: apply calling Plan
+2025-12-18T19:49:38.285-0600 [INFO]  ReferenceTransformer: reference not found: "self"
+2025-12-18T19:49:38.285-0600 [INFO]  ReferenceTransformer: reference not found: "self"
+2025-12-18T19:49:38.285-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-18T19:49:38.410-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: configuring server automatic mTLS: timestamp=2025-12-18T19:49:38.410-0600
+2025-12-18T19:49:38.872-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: Retrieved credentials: tf_aws.credentials_source="SharedConfigCredentials: /Users/aisalkyn/.aws/credentials" tf_mux_provider=*schema.GRPCProviderServer tf_rpc=ConfigureProvider @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.69/logging/tf_logger.go:39 @module=aws.aws-base tf_req_id=c2bcfc73-5f67-ea23-a04e-6d36519f8e4e tf_provider_addr=registry.terraform.io/hashicorp/aws timestamp=2025-12-18T19:49:38.872-0600
+2025-12-18T19:49:39.067-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: Retrieved caller identity from STS: tf_mux_provider=*schema.GRPCProviderServer tf_req_id=c2bcfc73-5f67-ea23-a04e-6d36519f8e4e tf_rpc=ConfigureProvider @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.69/logging/tf_logger.go:39 @module=aws.aws-base tf_provider_addr=registry.terraform.io/hashicorp/aws timestamp=2025-12-18T19:49:39.066-0600
+2025-12-18T19:49:39.069-0600 [INFO]  ReferenceTransformer: reference not found: "self"
+2025-12-18T19:49:39.069-0600 [INFO]  ReferenceTransformer: reference not found: "self"
+2025-12-18T19:49:39.078-0600 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_instance.remote_demo, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .force_destroy: planned value cty.False for a non-computed attribute
+      - .get_password_data: planned value cty.False for a non-computed attribute
+      - .source_dest_check: planned value cty.True for a non-computed attribute
+      - .user_data_replace_on_change: planned value cty.False for a non-computed attribute
+      - .enclave_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ephemeral_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .instance_market_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ebs_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .root_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .cpu_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .maintenance_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .metadata_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .primary_network_interface: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .private_dns_name_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .capacity_reservation_specification: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .network_interface: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+2025-12-18T19:49:39.088-0600 [INFO]  ReferenceTransformer: reference not found: "self"
+2025-12-18T19:49:39.088-0600 [INFO]  ReferenceTransformer: reference not found: "self"
+2025-12-18T19:49:39.154-0600 [INFO]  backend/local: apply calling Apply
+2025-12-18T19:49:39.155-0600 [INFO]  ReferenceTransformer: reference not found: "self"
+2025-12-18T19:49:39.155-0600 [INFO]  ReferenceTransformer: reference not found: "self"
+2025-12-18T19:49:39.155-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-18T19:49:39.313-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: configuring server automatic mTLS: timestamp=2025-12-18T19:49:39.313-0600
+2025-12-18T19:49:39.804-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: Retrieved credentials: @module=aws.aws-base tf_aws.credentials_source="SharedConfigCredentials: /Users/aisalkyn/.aws/credentials" tf_req_id=96ad9f07-fbfb-2304-52bf-09d90d7c26dc tf_rpc=ConfigureProvider @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.69/logging/tf_logger.go:39 tf_mux_provider=*schema.GRPCProviderServer tf_provider_addr=registry.terraform.io/hashicorp/aws timestamp=2025-12-18T19:49:39.804-0600
+2025-12-18T19:49:39.938-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: Retrieved caller identity from STS: tf_req_id=96ad9f07-fbfb-2304-52bf-09d90d7c26dc tf_rpc=ConfigureProvider @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.69/logging/tf_logger.go:39 @module=aws.aws-base tf_mux_provider=*schema.GRPCProviderServer tf_provider_addr=registry.terraform.io/hashicorp/aws timestamp=2025-12-18T19:49:39.938-0600
+2025-12-18T19:49:39.944-0600 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_instance.remote_demo, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .force_destroy: planned value cty.False for a non-computed attribute
+      - .get_password_data: planned value cty.False for a non-computed attribute
+      - .source_dest_check: planned value cty.True for a non-computed attribute
+      - .user_data_replace_on_change: planned value cty.False for a non-computed attribute
+      - .capacity_reservation_specification: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .network_interface: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .enclave_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ephemeral_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .instance_market_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ebs_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .root_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .cpu_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .maintenance_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .metadata_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .primary_network_interface: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .private_dns_name_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+2025-12-18T19:49:39.945-0600 [INFO]  Starting apply for aws_instance.remote_demo
+2025-12-18T19:50:12.375-0600 [WARN]  Provider "provider[\"registry.terraform.io/hashicorp/aws\"]" produced an unexpected new value for aws_instance.remote_demo, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .hibernation: was null, but now cty.False
+      - .credit_specification: block count changed from 0 to 1
+2025-12-18T19:50:12.380-0600 [INFO]  using private key for authentication
+2025-12-18T19:50:27.383-0600 [ERROR] connection error: dial tcp 3.145.15.233:22: i/o timeout
+2025-12-18T19:50:27.384-0600 [WARN]  retryable error: dial tcp 3.145.15.233:22: i/o timeout
+2025-12-18T19:50:27.384-0600 [INFO]  sleeping for 1s
+2025-12-18T19:50:43.386-0600 [ERROR] connection error: dial tcp 3.145.15.233:22: i/o timeout
+2025-12-18T19:50:43.387-0600 [WARN]  retryable error: dial tcp 3.145.15.233:22: i/o timeout
+2025-12-18T19:50:43.387-0600 [INFO]  sleeping for 2s
+2025-12-18T19:51:00.389-0600 [ERROR] connection error: dial tcp 3.145.15.233:22: i/o timeout
+2025-12-18T19:51:00.390-0600 [WARN]  retryable error: dial tcp 3.145.15.233:22: i/o timeout
+2025-12-18T19:51:00.390-0600 [INFO]  sleeping for 4s
+2025-12-18T19:51:19.392-0600 [ERROR] connection error: dial tcp 3.145.15.233:22: i/o timeout
+2025-12-18T19:51:19.392-0600 [WARN]  retryable error: dial tcp 3.145.15.233:22: i/o timeout
+2025-12-18T19:51:19.392-0600 [INFO]  sleeping for 8s
+2025-12-18T19:51:42.395-0600 [ERROR] connection error: dial tcp 3.145.15.233:22: i/o timeout
+2025-12-18T19:51:42.396-0600 [WARN]  retryable error: dial tcp 3.145.15.233:22: i/o timeout
+2025-12-18T19:51:42.396-0600 [INFO]  sleeping for 16s
+2025-12-18T19:52:13.399-0600 [ERROR] connection error: dial tcp 3.145.15.233:22: i/o timeout
+2025-12-18T19:52:13.400-0600 [WARN]  retryable error: dial tcp 3.145.15.233:22: i/o timeout
+2025-12-18T19:52:13.400-0600 [INFO]  sleeping for 20s
+2025-12-18T19:52:48.364-0600 [ERROR] connection error: dial tcp 3.145.15.233:22: i/o timeout
+2025-12-18T19:52:48.364-0600 [WARN]  retryable error: dial tcp 3.145.15.233:22: i/o timeout
+2025-12-18T19:52:48.364-0600 [INFO]  sleeping for 20s
+2025-12-18T19:53:23.359-0600 [ERROR] connection error: dial tcp 3.145.15.233:22: i/o timeout
+2025-12-18T19:53:23.360-0600 [WARN]  retryable error: dial tcp 3.145.15.233:22: i/o timeout
+2025-12-18T19:53:23.360-0600 [INFO]  sleeping for 20s
+2025-12-18T19:53:58.362-0600 [ERROR] connection error: dial tcp 3.145.15.233:22: i/o timeout
+2025-12-18T19:53:58.363-0600 [WARN]  retryable error: dial tcp 3.145.15.233:22: i/o timeout
+2025-12-18T19:53:58.363-0600 [INFO]  sleeping for 20s
+2025-12-18T19:54:33.365-0600 [ERROR] connection error: dial tcp 3.145.15.233:22: i/o timeout
+2025-12-18T19:54:33.366-0600 [WARN]  retryable error: dial tcp 3.145.15.233:22: i/o timeout
+2025-12-18T19:54:33.366-0600 [INFO]  sleeping for 20s
+2025-12-18T19:55:08.369-0600 [ERROR] connection error: dial tcp 3.145.15.233:22: i/o timeout
+2025-12-18T19:55:08.369-0600 [WARN]  retryable error: dial tcp 3.145.15.233:22: i/o timeout
+2025-12-18T19:55:08.369-0600 [INFO]  sleeping for 20s
+2025-12-18T19:55:12.336-0600 [WARN]  Errors while provisioning aws_instance.remote_demo with "remote-exec", so aborting
+2025-12-18T19:55:12.347-0600 [ERROR] vertex "aws_instance.remote_demo" error: remote-exec provisioner error
+2025-12-18T20:14:56.490-0600 [INFO]  Terraform version: 1.5.7
+2025-12-18T20:14:56.490-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-18T20:14:56.490-0600 [INFO]  CLI args: []string{"terraform", "init"}
+2025-12-18T20:14:56.491-0600 [INFO]  CLI command args: []string{"init"}
+2025-12-18T20:15:02.792-0600 [INFO]  Terraform version: 1.5.7
+2025-12-18T20:15:02.792-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-18T20:15:02.792-0600 [INFO]  CLI args: []string{"terraform", "validate"}
+2025-12-18T20:15:02.792-0600 [INFO]  CLI command args: []string{"validate"}
+2025-12-18T20:15:03.100-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-18T20:15:03.297-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: configuring server automatic mTLS: timestamp=2025-12-18T20:15:03.297-0600
+2025-12-18T20:15:03.837-0600 [INFO]  ReferenceTransformer: reference not found: "self"
+2025-12-18T20:15:03.840-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-18T20:15:03.972-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: configuring server automatic mTLS: timestamp=2025-12-18T20:15:03.971-0600
+2025-12-18T20:15:18.379-0600 [INFO]  Terraform version: 1.5.7
+2025-12-18T20:15:18.380-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-18T20:15:18.380-0600 [INFO]  CLI args: []string{"terraform", "apply", "-auto-approve"}
+2025-12-18T20:15:18.380-0600 [INFO]  CLI command args: []string{"apply", "-auto-approve"}
+2025-12-18T20:15:18.692-0600 [INFO]  backend/local: starting Apply operation
+2025-12-18T20:15:18.694-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-18T20:15:18.812-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: configuring server automatic mTLS: timestamp=2025-12-18T20:15:18.812-0600
+2025-12-18T20:15:19.329-0600 [INFO]  ReferenceTransformer: reference not found: "self"
+2025-12-18T20:15:19.329-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-18T20:15:19.460-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: configuring server automatic mTLS: timestamp=2025-12-18T20:15:19.459-0600
+2025-12-18T20:15:19.925-0600 [INFO]  backend/local: apply calling Plan
+2025-12-18T20:15:19.926-0600 [INFO]  ReferenceTransformer: reference not found: "self"
+2025-12-18T20:15:19.926-0600 [INFO]  ReferenceTransformer: reference not found: "self"
+2025-12-18T20:15:19.926-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-18T20:15:20.045-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: configuring server automatic mTLS: timestamp=2025-12-18T20:15:20.045-0600
+2025-12-18T20:15:20.493-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: Retrieved credentials: @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.69/logging/tf_logger.go:39 tf_mux_provider=*schema.GRPCProviderServer tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=62633278-1bc2-f576-a0a4-14668fa981d2 tf_rpc=ConfigureProvider @module=aws.aws-base tf_aws.credentials_source="SharedConfigCredentials: /Users/aisalkyn/.aws/credentials" timestamp=2025-12-18T20:15:20.493-0600
+2025-12-18T20:15:20.697-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: Retrieved caller identity from STS: tf_mux_provider=*schema.GRPCProviderServer tf_provider_addr=registry.terraform.io/hashicorp/aws tf_rpc=ConfigureProvider @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.69/logging/tf_logger.go:39 @module=aws.aws-base tf_req_id=62633278-1bc2-f576-a0a4-14668fa981d2 timestamp=2025-12-18T20:15:20.697-0600
+2025-12-18T20:15:20.708-0600 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_security_group.ssh_http, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .description: planned value cty.StringVal("Managed by Terraform") for a non-computed attribute
+      - .egress: planned value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal(""), "from_port":cty.NumberIntVal(0), "ipv6_cidr_blocks":cty.ListValEmpty(cty.String), "prefix_list_ids":cty.ListValEmpty(cty.String), "protocol":cty.StringVal("-1"), "security_groups":cty.SetValEmpty(cty.String), "self":cty.False, "to_port":cty.NumberIntVal(0)})}) does not match config value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.NullVal(cty.String), "from_port":cty.NumberIntVal(0), "ipv6_cidr_blocks":cty.NullVal(cty.List(cty.String)), "prefix_list_ids":cty.NullVal(cty.List(cty.String)), "protocol":cty.StringVal("-1"), "security_groups":cty.NullVal(cty.Set(cty.String)), "self":cty.NullVal(cty.Bool), "to_port":cty.NumberIntVal(0)})})
+      - .ingress: planned value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("HTTP"), "from_port":cty.NumberIntVal(80), "ipv6_cidr_blocks":cty.ListValEmpty(cty.String), "prefix_list_ids":cty.ListValEmpty(cty.String), "protocol":cty.StringVal("tcp"), "security_groups":cty.SetValEmpty(cty.String), "self":cty.False, "to_port":cty.NumberIntVal(80)}), cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("SSH"), "from_port":cty.NumberIntVal(22), "ipv6_cidr_blocks":cty.ListValEmpty(cty.String), "prefix_list_ids":cty.ListValEmpty(cty.String), "protocol":cty.StringVal("tcp"), "security_groups":cty.SetValEmpty(cty.String), "self":cty.False, "to_port":cty.NumberIntVal(22)})}) does not match config value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("HTTP"), "from_port":cty.NumberIntVal(80), "ipv6_cidr_blocks":cty.NullVal(cty.List(cty.String)), "prefix_list_ids":cty.NullVal(cty.List(cty.String)), "protocol":cty.StringVal("tcp"), "security_groups":cty.NullVal(cty.Set(cty.String)), "self":cty.NullVal(cty.Bool), "to_port":cty.NumberIntVal(80)}), cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("SSH"), "from_port":cty.NumberIntVal(22), "ipv6_cidr_blocks":cty.NullVal(cty.List(cty.String)), "prefix_list_ids":cty.NullVal(cty.List(cty.String)), "protocol":cty.StringVal("tcp"), "security_groups":cty.NullVal(cty.Set(cty.String)), "self":cty.NullVal(cty.Bool), "to_port":cty.NumberIntVal(22)})})
+      - .revoke_rules_on_delete: planned value cty.False for a non-computed attribute
+2025-12-18T20:15:20.709-0600 [INFO]  ReferenceTransformer: reference not found: "self"
+2025-12-18T20:15:20.709-0600 [INFO]  ReferenceTransformer: reference not found: "self"
+2025-12-18T20:15:22.184-0600 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_instance.remote_demo, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .user_data_replace_on_change: planned value cty.False for a non-computed attribute
+      - .source_dest_check: planned value cty.True for a non-computed attribute
+      - .get_password_data: planned value cty.False for a non-computed attribute
+      - .force_destroy: planned value cty.False for a non-computed attribute
+      - .vpc_security_group_ids: planned value cty.UnknownVal(cty.Set(cty.String)) does not match config value cty.SetVal([]cty.Value{cty.UnknownVal(cty.String)})
+      - .maintenance_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ephemeral_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .instance_market_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .network_interface: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .private_dns_name_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .cpu_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ebs_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .enclave_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .metadata_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .capacity_reservation_specification: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .root_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .primary_network_interface: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+2025-12-18T20:15:22.199-0600 [INFO]  ReferenceTransformer: reference not found: "self"
+2025-12-18T20:15:22.199-0600 [INFO]  ReferenceTransformer: reference not found: "self"
+2025-12-18T20:15:22.273-0600 [INFO]  backend/local: apply calling Apply
+2025-12-18T20:15:22.273-0600 [INFO]  ReferenceTransformer: reference not found: "self"
+2025-12-18T20:15:22.273-0600 [INFO]  ReferenceTransformer: reference not found: "self"
+2025-12-18T20:15:22.274-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-18T20:15:22.414-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: configuring server automatic mTLS: timestamp=2025-12-18T20:15:22.413-0600
+2025-12-18T20:15:22.879-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: Retrieved credentials: @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.69/logging/tf_logger.go:39 @module=aws.aws-base tf_mux_provider=*schema.GRPCProviderServer tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=e53a95f3-b993-7713-e883-36bcf290bfc7 tf_rpc=ConfigureProvider tf_aws.credentials_source="SharedConfigCredentials: /Users/aisalkyn/.aws/credentials" timestamp=2025-12-18T20:15:22.879-0600
+2025-12-18T20:15:23.002-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: Retrieved caller identity from STS: tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=e53a95f3-b993-7713-e883-36bcf290bfc7 tf_rpc=ConfigureProvider @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.69/logging/tf_logger.go:39 @module=aws.aws-base tf_mux_provider=*schema.GRPCProviderServer timestamp=2025-12-18T20:15:23.002-0600
+2025-12-18T20:15:23.006-0600 [INFO]  Starting apply for aws_instance.remote_demo
+2025-12-18T20:15:52.930-0600 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_security_group.ssh_http, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .description: planned value cty.StringVal("Managed by Terraform") for a non-computed attribute
+      - .egress: planned value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal(""), "from_port":cty.NumberIntVal(0), "ipv6_cidr_blocks":cty.ListValEmpty(cty.String), "prefix_list_ids":cty.ListValEmpty(cty.String), "protocol":cty.StringVal("-1"), "security_groups":cty.SetValEmpty(cty.String), "self":cty.False, "to_port":cty.NumberIntVal(0)})}) does not match config value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.NullVal(cty.String), "from_port":cty.NumberIntVal(0), "ipv6_cidr_blocks":cty.NullVal(cty.List(cty.String)), "prefix_list_ids":cty.NullVal(cty.List(cty.String)), "protocol":cty.StringVal("-1"), "security_groups":cty.NullVal(cty.Set(cty.String)), "self":cty.NullVal(cty.Bool), "to_port":cty.NumberIntVal(0)})})
+      - .ingress: planned value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("HTTP"), "from_port":cty.NumberIntVal(80), "ipv6_cidr_blocks":cty.ListValEmpty(cty.String), "prefix_list_ids":cty.ListValEmpty(cty.String), "protocol":cty.StringVal("tcp"), "security_groups":cty.SetValEmpty(cty.String), "self":cty.False, "to_port":cty.NumberIntVal(80)}), cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("SSH"), "from_port":cty.NumberIntVal(22), "ipv6_cidr_blocks":cty.ListValEmpty(cty.String), "prefix_list_ids":cty.ListValEmpty(cty.String), "protocol":cty.StringVal("tcp"), "security_groups":cty.SetValEmpty(cty.String), "self":cty.False, "to_port":cty.NumberIntVal(22)})}) does not match config value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("HTTP"), "from_port":cty.NumberIntVal(80), "ipv6_cidr_blocks":cty.NullVal(cty.List(cty.String)), "prefix_list_ids":cty.NullVal(cty.List(cty.String)), "protocol":cty.StringVal("tcp"), "security_groups":cty.NullVal(cty.Set(cty.String)), "self":cty.NullVal(cty.Bool), "to_port":cty.NumberIntVal(80)}), cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("SSH"), "from_port":cty.NumberIntVal(22), "ipv6_cidr_blocks":cty.NullVal(cty.List(cty.String)), "prefix_list_ids":cty.NullVal(cty.List(cty.String)), "protocol":cty.StringVal("tcp"), "security_groups":cty.NullVal(cty.Set(cty.String)), "self":cty.NullVal(cty.Bool), "to_port":cty.NumberIntVal(22)})})
+      - .revoke_rules_on_delete: planned value cty.False for a non-computed attribute
+2025-12-18T20:15:52.931-0600 [INFO]  Starting apply for aws_security_group.ssh_http
+2025-12-18T20:15:55.494-0600 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_instance.remote_demo, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .force_destroy: planned value cty.False for a non-computed attribute
+      - .user_data_replace_on_change: planned value cty.False for a non-computed attribute
+      - .get_password_data: planned value cty.False for a non-computed attribute
+      - .source_dest_check: planned value cty.True for a non-computed attribute
+      - .primary_network_interface: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .root_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .maintenance_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .instance_market_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .network_interface: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .private_dns_name_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ephemeral_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ebs_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .enclave_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .metadata_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .capacity_reservation_specification: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .cpu_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+2025-12-18T20:15:55.494-0600 [INFO]  Starting apply for aws_instance.remote_demo
+2025-12-18T20:16:27.519-0600 [WARN]  Provider "provider[\"registry.terraform.io/hashicorp/aws\"]" produced an unexpected new value for aws_instance.remote_demo, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .hibernation: was null, but now cty.False
+      - .credit_specification: block count changed from 0 to 1
+2025-12-18T20:16:27.524-0600 [INFO]  using private key for authentication
+2025-12-18T20:16:42.527-0600 [ERROR] connection error: dial tcp 18.117.146.108:22: i/o timeout
+2025-12-18T20:16:42.527-0600 [WARN]  retryable error: dial tcp 18.117.146.108:22: i/o timeout
+2025-12-18T20:16:42.527-0600 [INFO]  sleeping for 1s
+2025-12-18T20:16:58.529-0600 [ERROR] connection error: dial tcp 18.117.146.108:22: i/o timeout
+2025-12-18T20:16:58.530-0600 [WARN]  retryable error: dial tcp 18.117.146.108:22: i/o timeout
+2025-12-18T20:16:58.530-0600 [INFO]  sleeping for 2s
+2025-12-18T20:17:15.532-0600 [ERROR] connection error: dial tcp 18.117.146.108:22: i/o timeout
+2025-12-18T20:17:15.532-0600 [WARN]  retryable error: dial tcp 18.117.146.108:22: i/o timeout
+2025-12-18T20:17:15.532-0600 [INFO]  sleeping for 4s
+2025-12-18T20:17:34.535-0600 [ERROR] connection error: dial tcp 18.117.146.108:22: i/o timeout
+2025-12-18T20:17:34.535-0600 [WARN]  retryable error: dial tcp 18.117.146.108:22: i/o timeout
+2025-12-18T20:17:34.535-0600 [INFO]  sleeping for 8s
+2025-12-18T20:17:57.538-0600 [ERROR] connection error: dial tcp 18.117.146.108:22: i/o timeout
+2025-12-18T20:17:57.538-0600 [WARN]  retryable error: dial tcp 18.117.146.108:22: i/o timeout
+2025-12-18T20:17:57.538-0600 [INFO]  sleeping for 16s
+2025-12-18T20:18:28.541-0600 [ERROR] connection error: dial tcp 18.117.146.108:22: i/o timeout
+2025-12-18T20:18:28.542-0600 [WARN]  retryable error: dial tcp 18.117.146.108:22: i/o timeout
+2025-12-18T20:18:28.542-0600 [INFO]  sleeping for 20s
+2025-12-18T20:19:03.544-0600 [ERROR] connection error: dial tcp 18.117.146.108:22: i/o timeout
+2025-12-18T20:19:03.545-0600 [WARN]  retryable error: dial tcp 18.117.146.108:22: i/o timeout
+2025-12-18T20:19:03.545-0600 [INFO]  sleeping for 20s
+2025-12-18T20:19:38.546-0600 [ERROR] connection error: dial tcp 18.117.146.108:22: i/o timeout
+2025-12-18T20:19:38.547-0600 [WARN]  retryable error: dial tcp 18.117.146.108:22: i/o timeout
+2025-12-18T20:19:38.547-0600 [INFO]  sleeping for 20s
+2025-12-18T20:20:13.550-0600 [ERROR] connection error: dial tcp 18.117.146.108:22: i/o timeout
+2025-12-18T20:20:13.550-0600 [WARN]  retryable error: dial tcp 18.117.146.108:22: i/o timeout
+2025-12-18T20:20:13.550-0600 [INFO]  sleeping for 20s
+2025-12-18T20:20:48.553-0600 [ERROR] connection error: dial tcp 18.117.146.108:22: i/o timeout
+2025-12-18T20:20:48.555-0600 [WARN]  retryable error: dial tcp 18.117.146.108:22: i/o timeout
+2025-12-18T20:20:48.555-0600 [INFO]  sleeping for 20s

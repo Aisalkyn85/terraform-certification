@@ -1,0 +1,28 @@
+2025-12-17T20:01:34.258-0600 [INFO]  Terraform version: 1.5.7
+2025-12-17T20:01:34.259-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-17T20:01:34.259-0600 [INFO]  CLI args: []string{"terraform", "fmt"}
+2025-12-17T20:01:34.260-0600 [INFO]  CLI command args: []string{"fmt"}
+2025-12-17T20:01:41.043-0600 [INFO]  Terraform version: 1.5.7
+2025-12-17T20:01:41.044-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-17T20:01:41.044-0600 [INFO]  CLI args: []string{"terraform", "init"}
+2025-12-17T20:01:41.044-0600 [INFO]  CLI command args: []string{"init"}
+2025-12-17T20:03:01.305-0600 [INFO]  Terraform version: 1.5.7
+2025-12-17T20:03:01.306-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-17T20:03:01.306-0600 [INFO]  CLI args: []string{"terraform", "fmt"}
+2025-12-17T20:03:01.307-0600 [INFO]  CLI command args: []string{"fmt"}
+2025-12-17T20:04:05.733-0600 [INFO]  Terraform version: 1.5.7
+2025-12-17T20:04:05.733-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-17T20:04:05.733-0600 [INFO]  CLI args: []string{"terraform", "fmt", "-list=true"}
+2025-12-17T20:04:05.735-0600 [INFO]  CLI command args: []string{"fmt", "-list=true"}
+2025-12-17T20:04:42.935-0600 [INFO]  Terraform version: 1.5.7
+2025-12-17T20:04:42.936-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-17T20:04:42.936-0600 [INFO]  CLI args: []string{"terraform", "fmt", "-diff"}
+2025-12-17T20:04:42.936-0600 [INFO]  CLI command args: []string{"fmt", "-diff"}
+2025-12-17T20:07:28.239-0600 [INFO]  Terraform version: 1.5.7
+2025-12-17T20:07:28.239-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-17T20:07:28.239-0600 [INFO]  CLI args: []string{"terraform", "fmt", "-diff"}
+2025-12-17T20:07:28.241-0600 [INFO]  CLI command args: []string{"fmt", "-diff"}
+2025-12-17T20:09:45.434-0600 [INFO]  Terraform version: 1.5.7
+2025-12-17T20:09:45.435-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-17T20:09:45.435-0600 [INFO]  CLI args: []string{"terraform", "fmt", "-diff"}
+2025-12-17T20:09:45.436-0600 [INFO]  CLI command args: []string{"fmt", "-diff"}

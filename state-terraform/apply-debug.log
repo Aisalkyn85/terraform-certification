@@ -1,0 +1,88 @@
+2025-12-17T21:39:54.106-0600 [INFO]  Terraform version: 1.5.7
+2025-12-17T21:39:54.106-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-17T21:39:54.106-0600 [INFO]  CLI args: []string{"terraform", "init"}
+2025-12-17T21:39:54.107-0600 [INFO]  CLI command args: []string{"init"}
+2025-12-17T21:40:16.371-0600 [INFO]  Terraform version: 1.5.7
+2025-12-17T21:40:16.371-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-17T21:40:16.371-0600 [INFO]  CLI args: []string{"terraform", "init"}
+2025-12-17T21:40:16.371-0600 [INFO]  CLI command args: []string{"init"}
+2025-12-17T21:40:16.376-0600 [INFO]  AWS Auth provider used: "SharedCredentialsProvider"
+2025-12-17T21:41:27.590-0600 [INFO]  Terraform version: 1.5.7
+2025-12-17T21:41:27.591-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-17T21:41:27.591-0600 [INFO]  CLI args: []string{"terraform", "init"}
+2025-12-17T21:41:27.592-0600 [INFO]  CLI command args: []string{"init"}
+2025-12-17T21:41:27.600-0600 [INFO]  AWS Auth provider used: "SharedCredentialsProvider"
+2025-12-17T21:41:28.325-0600 [WARN]  failed to fetch state md5: invalid md5
+2025-12-17T21:42:48.412-0600 [INFO]  Terraform version: 1.5.7
+2025-12-17T21:42:48.412-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-17T21:42:48.412-0600 [INFO]  CLI args: []string{"terraform", "apply"}
+2025-12-17T21:42:48.413-0600 [INFO]  CLI command args: []string{"apply"}
+2025-12-17T21:42:48.420-0600 [INFO]  AWS Auth provider used: "SharedCredentialsProvider"
+2025-12-17T21:42:48.692-0600 [INFO]  backend/local: starting Apply operation
+2025-12-17T21:42:49.390-0600 [WARN]  failed to fetch state md5: invalid md5
+2025-12-17T21:42:49.394-0600 [INFO]  backend/local: apply calling Plan
+2025-12-17T21:42:49.395-0600 [INFO]  backend/local: apply calling Apply
+2025-12-17T21:42:49.695-0600 [WARN]  failed to fetch state md5: invalid md5
+2025-12-17T21:47:21.350-0600 [INFO]  Terraform version: 1.5.7
+2025-12-17T21:47:21.351-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-17T21:47:21.351-0600 [INFO]  CLI args: []string{"terraform", "apply"}
+2025-12-17T21:47:21.351-0600 [INFO]  CLI command args: []string{"apply"}
+2025-12-17T21:47:56.056-0600 [INFO]  Terraform version: 1.5.7
+2025-12-17T21:47:56.057-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-17T21:47:56.057-0600 [INFO]  CLI args: []string{"terraform", "init"}
+2025-12-17T21:47:56.057-0600 [INFO]  CLI command args: []string{"init"}
+2025-12-17T21:48:16.003-0600 [INFO]  Terraform version: 1.5.7
+2025-12-17T21:48:16.003-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-17T21:48:16.003-0600 [INFO]  CLI args: []string{"terraform", "init", "-reconfigure"}
+2025-12-17T21:48:16.004-0600 [INFO]  CLI command args: []string{"init", "-reconfigure"}
+2025-12-17T21:48:16.013-0600 [INFO]  AWS Auth provider used: "SharedCredentialsProvider"
+2025-12-17T21:48:16.864-0600 [WARN]  failed to fetch state md5: invalid md5
+2025-12-17T21:49:54.088-0600 [INFO]  Terraform version: 1.5.7
+2025-12-17T21:49:54.088-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-17T21:49:54.088-0600 [INFO]  CLI args: []string{"terraform", "apply"}
+2025-12-17T21:49:54.090-0600 [INFO]  CLI command args: []string{"apply"}
+2025-12-17T21:49:54.097-0600 [INFO]  AWS Auth provider used: "SharedCredentialsProvider"
+2025-12-17T21:49:54.295-0600 [INFO]  backend/local: starting Apply operation
+2025-12-17T21:49:54.880-0600 [WARN]  failed to fetch state md5: invalid md5
+2025-12-17T21:49:54.885-0600 [INFO]  backend/local: apply calling Plan
+2025-12-17T21:49:54.887-0600 [INFO]  backend/local: apply calling Apply
+2025-12-17T21:58:29.859-0600 [INFO]  Terraform version: 1.5.7
+2025-12-17T21:58:29.859-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-17T21:58:29.860-0600 [INFO]  CLI args: []string{"terraform", "apply"}
+2025-12-17T21:58:29.860-0600 [INFO]  CLI command args: []string{"apply"}
+2025-12-17T21:58:29.862-0600 [INFO]  AWS Auth provider used: "SharedCredentialsProvider"
+2025-12-17T21:58:30.420-0600 [INFO]  backend/local: starting Apply operation
+2025-12-17T21:59:27.403-0600 [INFO]  Terraform version: 1.5.7
+2025-12-17T21:59:27.403-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-17T21:59:27.403-0600 [INFO]  CLI args: []string{"terraform", "apply"}
+2025-12-17T21:59:27.404-0600 [INFO]  CLI command args: []string{"apply"}
+2025-12-17T21:59:27.406-0600 [INFO]  AWS Auth provider used: "SharedCredentialsProvider"
+2025-12-17T21:59:28.114-0600 [INFO]  backend/local: starting Apply operation
+2025-12-17T21:59:28.938-0600 [WARN]  failed to fetch state md5: invalid md5
+2025-12-17T21:59:28.939-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-17T21:59:29.175-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: configuring server automatic mTLS: timestamp=2025-12-17T21:59:29.175-0600
+2025-12-17T21:59:29.693-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-17T21:59:29.828-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: configuring server automatic mTLS: timestamp=2025-12-17T21:59:29.828-0600
+2025-12-17T21:59:30.303-0600 [INFO]  backend/local: apply calling Plan
+2025-12-17T21:59:30.304-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-17T21:59:30.431-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: configuring server automatic mTLS: timestamp=2025-12-17T21:59:30.431-0600
+2025-12-17T21:59:30.877-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: Retrieved credentials: tf_aws.credentials_source="SharedConfigCredentials: /Users/aisalkyn/.aws/credentials" tf_mux_provider=*schema.GRPCProviderServer tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=a170038e-17d1-f39b-dc32-4262a118b593 @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.69/logging/tf_logger.go:39 tf_rpc=ConfigureProvider @module=aws.aws-base timestamp=2025-12-17T21:59:30.877-0600
+2025-12-17T21:59:31.025-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: Retrieved caller identity from STS: @module=aws.aws-base tf_provider_addr=registry.terraform.io/hashicorp/aws @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.69/logging/tf_logger.go:39 tf_req_id=a170038e-17d1-f39b-dc32-4262a118b593 tf_rpc=ConfigureProvider tf_mux_provider=*schema.GRPCProviderServer timestamp=2025-12-17T21:59:31.025-0600
+2025-12-17T21:59:31.034-0600 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_instance.lock_demo, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .user_data_replace_on_change: planned value cty.False for a non-computed attribute
+      - .get_password_data: planned value cty.False for a non-computed attribute
+      - .force_destroy: planned value cty.False for a non-computed attribute
+      - .source_dest_check: planned value cty.True for a non-computed attribute
+      - .enclave_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .maintenance_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .primary_network_interface: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .network_interface: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .private_dns_name_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .capacity_reservation_specification: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .cpu_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ephemeral_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .instance_market_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .root_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ebs_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .metadata_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead

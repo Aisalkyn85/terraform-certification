@@ -1,0 +1,43 @@
+2025-12-17T21:01:00.039-0600 [INFO]  Terraform version: 1.5.7
+2025-12-17T21:01:00.040-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-17T21:01:00.040-0600 [INFO]  CLI args: []string{"terraform", "init"}
+2025-12-17T21:01:00.041-0600 [INFO]  CLI command args: []string{"init"}
+2025-12-17T21:03:07.420-0600 [INFO]  Terraform version: 1.5.7
+2025-12-17T21:03:07.421-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-17T21:03:07.421-0600 [INFO]  CLI args: []string{"terraform", "init"}
+2025-12-17T21:03:07.423-0600 [INFO]  CLI command args: []string{"init"}
+2025-12-17T21:04:26.121-0600 [INFO]  Terraform version: 1.5.7
+2025-12-17T21:04:26.121-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-17T21:04:26.121-0600 [INFO]  CLI args: []string{"terraform", "plan"}
+2025-12-17T21:04:26.122-0600 [INFO]  CLI command args: []string{"plan"}
+2025-12-17T21:04:26.517-0600 [INFO]  backend/local: starting Plan operation
+2025-12-17T21:04:26.519-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-17T21:04:31.193-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: configuring server automatic mTLS: timestamp=2025-12-17T21:04:31.193-0600
+2025-12-17T21:04:31.715-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-17T21:04:31.844-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: configuring server automatic mTLS: timestamp=2025-12-17T21:04:31.844-0600
+2025-12-17T21:04:32.297-0600 [INFO]  backend/local: plan calling Plan
+2025-12-17T21:04:32.298-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-17T21:04:32.420-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: configuring server automatic mTLS: timestamp=2025-12-17T21:04:32.420-0600
+2025-12-17T21:04:32.850-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: Retrieved credentials: @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.69/logging/tf_logger.go:39 @module=aws.aws-base tf_aws.credentials_source="SharedConfigCredentials: /Users/aisalkyn/.aws/credentials" tf_mux_provider=*schema.GRPCProviderServer tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=4b6155e0-4428-2434-d7d2-849bf2ddf27d tf_rpc=ConfigureProvider timestamp=2025-12-17T21:04:32.850-0600
+2025-12-17T21:04:33.056-0600 [INFO]  provider.terraform-provider-aws_v6.27.0_x5: Retrieved caller identity from STS: @module=aws.aws-base tf_mux_provider=*schema.GRPCProviderServer tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=4b6155e0-4428-2434-d7d2-849bf2ddf27d @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.69/logging/tf_logger.go:39 tf_rpc=ConfigureProvider timestamp=2025-12-17T21:04:33.056-0600
+2025-12-17T21:04:33.059-0600 [INFO]  ReferenceTransformer: reference not found: "local.instance_name"
+2025-12-17T21:04:33.059-0600 [INFO]  ReferenceTransformer: reference not found: "var.env"
+2025-12-17T21:04:33.070-0600 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_instance.demo, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .get_password_data: planned value cty.False for a non-computed attribute
+      - .user_data_replace_on_change: planned value cty.False for a non-computed attribute
+      - .force_destroy: planned value cty.False for a non-computed attribute
+      - .source_dest_check: planned value cty.True for a non-computed attribute
+      - .primary_network_interface: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .root_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .instance_market_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .network_interface: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .enclave_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .maintenance_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .metadata_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .private_dns_name_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .capacity_reservation_specification: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .cpu_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ebs_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ephemeral_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+2025-12-17T21:04:33.082-0600 [INFO]  backend/local: plan operation completed

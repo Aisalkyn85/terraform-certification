@@ -1,0 +1,58 @@
+2025-12-17T17:52:30.534-0600 [INFO]  Terraform version: 1.5.7
+2025-12-17T17:52:30.535-0600 [INFO]  Go runtime version: go1.23.1
+2025-12-17T17:52:30.535-0600 [INFO]  CLI args: []string{"terraform", "apply"}
+2025-12-17T17:52:30.535-0600 [INFO]  CLI command args: []string{"apply"}
+2025-12-17T17:52:30.817-0600 [INFO]  backend/local: starting Apply operation
+2025-12-17T17:52:30.819-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-17T17:52:30.922-0600 [INFO]  provider.terraform-provider-aws_v6.26.0_x5: configuring server automatic mTLS: timestamp=2025-12-17T17:52:30.922-0600
+2025-12-17T17:52:31.342-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-17T17:52:31.444-0600 [INFO]  provider.terraform-provider-aws_v6.26.0_x5: configuring server automatic mTLS: timestamp=2025-12-17T17:52:31.443-0600
+2025-12-17T17:52:31.845-0600 [INFO]  backend/local: apply calling Plan
+2025-12-17T17:52:31.845-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-17T17:52:31.950-0600 [INFO]  provider.terraform-provider-aws_v6.26.0_x5: configuring server automatic mTLS: timestamp=2025-12-17T17:52:31.949-0600
+2025-12-17T17:52:32.337-0600 [INFO]  provider.terraform-provider-aws_v6.26.0_x5: Retrieved credentials: tf_rpc=ConfigureProvider @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.69/logging/tf_logger.go:39 tf_aws.credentials_source="SharedConfigCredentials: /Users/aisalkyn/.aws/credentials" tf_req_id=d057b8a3-1e76-f2b0-7942-a077543190de @module=aws.aws-base tf_mux_provider=*schema.GRPCProviderServer tf_provider_addr=registry.terraform.io/hashicorp/aws timestamp=2025-12-17T17:52:32.337-0600
+2025-12-17T17:52:32.463-0600 [INFO]  provider.terraform-provider-aws_v6.26.0_x5: Retrieved caller identity from STS: @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.69/logging/tf_logger.go:39 @module=aws.aws-base tf_rpc=ConfigureProvider tf_mux_provider=*schema.GRPCProviderServer tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=d057b8a3-1e76-f2b0-7942-a077543190de timestamp=2025-12-17T17:52:32.463-0600
+2025-12-17T17:52:32.470-0600 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_instance.demo, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .user_data_replace_on_change: planned value cty.False for a non-computed attribute
+      - .source_dest_check: planned value cty.True for a non-computed attribute
+      - .force_destroy: planned value cty.False for a non-computed attribute
+      - .get_password_data: planned value cty.False for a non-computed attribute
+      - .instance_market_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .network_interface: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .primary_network_interface: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .root_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .capacity_reservation_specification: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ebs_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ephemeral_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .metadata_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .cpu_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .enclave_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .private_dns_name_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .maintenance_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+2025-12-17T17:52:35.027-0600 [INFO]  backend/local: apply calling Apply
+2025-12-17T17:52:35.028-0600 [INFO]  provider: configuring client automatic mTLS
+2025-12-17T17:52:35.167-0600 [INFO]  provider.terraform-provider-aws_v6.26.0_x5: configuring server automatic mTLS: timestamp=2025-12-17T17:52:35.167-0600
+2025-12-17T17:52:35.551-0600 [INFO]  provider.terraform-provider-aws_v6.26.0_x5: Retrieved credentials: @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.69/logging/tf_logger.go:39 tf_mux_provider=*schema.GRPCProviderServer tf_provider_addr=registry.terraform.io/hashicorp/aws tf_rpc=ConfigureProvider @module=aws.aws-base tf_aws.credentials_source="SharedConfigCredentials: /Users/aisalkyn/.aws/credentials" tf_req_id=52ca0c23-6c24-117b-d722-2ed65a79ccc9 timestamp=2025-12-17T17:52:35.551-0600
+2025-12-17T17:52:35.690-0600 [INFO]  provider.terraform-provider-aws_v6.26.0_x5: Retrieved caller identity from STS: tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=52ca0c23-6c24-117b-d722-2ed65a79ccc9 @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.69/logging/tf_logger.go:39 @module=aws.aws-base tf_mux_provider=*schema.GRPCProviderServer tf_rpc=ConfigureProvider timestamp=2025-12-17T17:52:35.690-0600
+2025-12-17T17:52:35.698-0600 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_instance.demo, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .source_dest_check: planned value cty.True for a non-computed attribute
+      - .force_destroy: planned value cty.False for a non-computed attribute
+      - .get_password_data: planned value cty.False for a non-computed attribute
+      - .user_data_replace_on_change: planned value cty.False for a non-computed attribute
+      - .enclave_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .maintenance_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .private_dns_name_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .root_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .capacity_reservation_specification: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .instance_market_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .network_interface: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .primary_network_interface: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .metadata_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .cpu_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ebs_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ephemeral_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+2025-12-17T17:52:35.698-0600 [INFO]  Starting apply for aws_instance.demo
+2025-12-17T17:52:36.011-0600 [ERROR] provider.terraform-provider-aws_v6.26.0_x5: Response contains error diagnostic: diagnostic_severity=ERROR tf_proto_version=5.10 tf_provider_addr=registry.terraform.io/hashicorp/aws tf_resource_type=aws_instance @module=sdk.proto diagnostic_summary="creating EC2 Instance: operation error EC2: RunInstances, https response error StatusCode: 400, RequestID: 47b6b3a3-3d71-4e53-9abd-18d593bf8695, api error InvalidAMIID.Malformed: Invalid id: "ami-167890abcdef0" (expecting "ami-...")" tf_req_id=575a40b7-72dd-fea5-1fe6-c5fad6614058 tf_rpc=ApplyResourceChange @caller=github.com/hashicorp/terraform-plugin-go@v0.29.0/tfprotov5/internal/diag/diagnostics.go:58 diagnostic_detail= timestamp=2025-12-17T17:52:36.011-0600
+2025-12-17T17:52:36.018-0600 [ERROR] vertex "aws_instance.demo" error: creating EC2 Instance: operation error EC2: RunInstances, https response error StatusCode: 400, RequestID: 47b6b3a3-3d71-4e53-9abd-18d593bf8695, api error InvalidAMIID.Malformed: Invalid id: "ami-167890abcdef0" (expecting "ami-...")
